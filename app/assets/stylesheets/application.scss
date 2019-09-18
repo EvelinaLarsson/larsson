@@ -1,0 +1,24 @@
+@import "components/navbar";
+@import "bootstrap/scss/bootstrap";
+
+body {
+  font-family: "Avenir Next";
+  color: lightgrey;
+}
+
+.background {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.headline {
+  font-family: 'Amatic SC', cursive;
+  font-size: 120px;
+  padding-top: 113px;
+}
+
+.subtitle {
+  font-weight: lighter;
+  padding-left: 7px;
+}

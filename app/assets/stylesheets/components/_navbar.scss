@@ -1,0 +1,21 @@
+.navbar {
+  padding: .5rem 2rem;
+}
+
+.nav-left {
+  font-family: 'Amatic SC', cursive;
+  font-size: 60px;
+}
+
+.nav-right {
+  display: flex;
+}
+
+.items {
+  list-style: none;
+}
+
+.items li {
+  display: inline;
+  padding-left: 25px;
+}
