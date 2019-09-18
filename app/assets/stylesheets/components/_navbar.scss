@@ -19,3 +19,8 @@
   display: inline;
   padding-left: 25px;
 }
+
+.btn:not(:disabled):not(.disabled) {
+  color: lightgrey;
+  box-shadow: none;
+}

@@ -2,17 +2,40 @@
 <div class="navbar">
   <div class="nav-left">EL</div>
   <div class="nav-right">
-    <div class="nav-items">
-      <ul class="items">
-        <li class="nav-item dropdown"><%= link_to "About", about_path %>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <%= link_to "Background", about_path, class: "dropdown-item" %>
-            <%= link_to "What now?", about_path, class: "dropdown-item" %>
-            <%= link_to "Interests", about_path, class: "dropdown-item" %>
-          </div>
-        </li>
-      </ul>
+    <div class="btn-group">
+      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        About
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Background</a>
+        <a class="dropdown-item" href="#">What now?</a>
+        <a class="dropdown-item" href="#">Interests</a>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Experience
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Le Wagon</a>
+        <a class="dropdown-item" href="#">Hogarth</a>
+        <a class="dropdown-item" href="#">Editing</a>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Projects
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">126</a>
+        <a class="dropdown-item" href="#">Limelight</a>
+        <a class="dropdown-item" href="#">My Cocktails</a>
+      </div>
+    </div>
+    <div class="btn-group">
+      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Contact
+      </button>
     </div>
   </div>
 </div>
-
