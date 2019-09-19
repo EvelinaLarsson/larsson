@@ -1,5 +1,9 @@
-.navbar {
-  padding: .5rem 2rem;
+.navigation {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  height: 80px;
 }
 
 .nav-left {
@@ -9,6 +13,7 @@
 
 .nav-right {
   display: flex;
+  height: 120px;
 }
 
 .items {
@@ -23,4 +28,32 @@
 .btn:not(:disabled):not(.disabled) {
   color: lightgrey;
   box-shadow: none;
+  font-size: 18px;
+}
+
+button.btn.dropdown-toggle::after {
+  content:none;
+}
+
+.dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu {
+  display: block;
+}
+
+#dropdown-menu-item {
+  margin-top: -40px;
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+}
+
+#dropdown-item-id {
+  color: lightgrey;
+}
+
+.dropdown-toggle{
+  margin-bottom: 2px;
+}
+
+.navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+  margin-bottom: 0;
 }

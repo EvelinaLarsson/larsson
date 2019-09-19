@@ -1,35 +1,35 @@
 <!-- Navbar -->
-<div class="navbar">
+<div class="navigation">
   <div class="nav-left">EL</div>
   <div class="nav-right">
     <div class="btn-group">
       <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         About
       </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Background</a>
-        <a class="dropdown-item" href="#">What now?</a>
-        <a class="dropdown-item" href="#">Interests</a>
+      <div class="dropdown-menu" id="dropdown-menu-item">
+        <%= link_to "Background", about_path, class: "dropdown-item", id: "dropdown-item-id" %>
+        <a class="dropdown-item" id="dropdown-item-id" href="#">What now?</a>
+        <a class="dropdown-item" id="dropdown-item-id" href="#">Interests</a>
       </div>
     </div>
     <div class="btn-group">
       <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Experience
       </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Le Wagon</a>
-        <a class="dropdown-item" href="#">Hogarth</a>
-        <a class="dropdown-item" href="#">Editing</a>
+      <div class="dropdown-menu" id="dropdown-menu-item">
+        <a class="dropdown-item" id="dropdown-item-id" href="#">Le Wagon</a>
+        <a class="dropdown-item" id="dropdown-item-id" href="#">Hogarth</a>
+        <a class="dropdown-item" id="dropdown-item-id" href="#">Editing</a>
       </div>
     </div>
     <div class="btn-group">
       <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Projects
       </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">126</a>
-        <a class="dropdown-item" href="#">Limelight</a>
-        <a class="dropdown-item" href="#">My Cocktails</a>
+      <div class="dropdown-menu" id="dropdown-menu-item">
+        <a class="dropdown-item" id="dropdown-item-id" href="#">126</a>
+        <a class="dropdown-item" id="dropdown-item-id" href="#">Limelight</a>
+        <a class="dropdown-item" id="dropdown-item-id" href="#">My Cocktails</a>
       </div>
     </div>
     <div class="btn-group">
