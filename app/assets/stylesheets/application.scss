@@ -1,9 +1,16 @@
-@import "components/navbar";
+@import "components/navbar2";
 @import "bootstrap/scss/bootstrap";
+@import "pages";
 
 body {
   font-family: "Avenir Next";
   color: lightgrey;
+  background-color: #819EB3;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
 }
 
 .background {
@@ -24,4 +31,19 @@ body {
   font-size: 30px;
   padding-right: 7px;
   text-align: right;
+}
+
+p {
+  font-size: 16px;
+  position: absolute;
+  bottom: 35px;
+  left: 10px;
+}
+
+p a {
+  color: lightgrey;
+  text-decoration: underline;
+  &:hover {
+    color: lightgrey;
+  }
 }
