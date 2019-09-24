@@ -11,10 +11,20 @@
   font-size: 60px;
 }
 
+.nav-left a {
+  text-decoration: none;
+  color: lightgrey;
+  &:hover {
+    text-decoration: none;
+    color: lightgrey;
+  }
+}
+
 .nav-right {
   display: flex;
   height: 120px;
 }
+
 
 .items {
   list-style: none;
