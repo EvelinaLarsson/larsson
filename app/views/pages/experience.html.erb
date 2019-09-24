@@ -1,63 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Activate Bootstrap 3 Dropdowns on Hover</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
-    <!-- Fontawesome CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
-    <%= stylesheet_link_tag 'application', media: 'all' %>
-  </head>
-  <body>
-    <%= render 'shared/navbar2' %>
-    <div class="container">
-      <h1>Experience</h1>
-      <span><h2>SENIOR ACCOUNT MANAGER</h2><br>
-        <em>Hogarth Worldwide Ltd, London – Jan 2014-Jun 2019</em><br>
-        <br>
-        <ul class="responsibilities">
-          <li>Client-facing technical account manager within a web development team, using Drupal to build websites for Nestlé Waters and Nespresso</li>
-          <li>Project management responsibilities, including carrying out changes and building new pages in the CMS, internal QC, and meeting with creative agencies to discuss design, UI & UX</li>
-          <li>Managed global campaigns within digital, TV & print production for Coca-Cola, Johnson & Johnson and Nespresso among others</li>
-          <li>Sole responsibility for the Nordic Coca-Cola markets including scope of work, revenue, billing and client expectations</li>
-          <li>Liaison between production departments to ensure information exchange remained unconvoluted</li>
-          <li>Trouble-shooting role across various accounts to streamline production processes and internal workflows, foremost in connection with digital campaigns.</li>
-        </ul>
-
-        <h2>FREELANCING IN LONDON</h2><br>
-        <em>Various roles, Oct 2012-Dec 2013</em><br>
-        <br>
-        <ul class="responsibilities">
-          <li>Content Manager for a furniture start-up</li>
-          <li>Content Writer for a Swedish online platform</li>
-          <li>Sales Assistant securing accommodation for exchange students</li>
-          <li>Prop Maker at Theatre Royal Stratford East.</li>
-        </ul>
-
-        <h2>ONLINE EDITOR</h2><br>
-        <em>Kristianstad University, Kristianstad, Sweden – Jan-Jun 2012</em><br>
-        <br>
-        <ul class="responsibilities">
-          <li>Extensive work with Episerver CMS recreating and transferring pages as part of a website update</li>
-          <li>Creating, editing and maintaining content in English & Swedish</li>
-          <li>Liaison between staff and management regarding updates and changes to the site.</li>
-        </ul>
-
-        <h2>ASSISTANT EDITOR</h2>
-        <em>Folkuniversitetet Publishing House, Lund, Sweden – Mar 2009-Dec 2011</em><br>
-        <br>
-        <ul class="responsibilities">
-          <li>Editing, proof reading, translation and basic graphic design of language training material</li>
-          <li>Content management on Episerver in connection with a website launch</li>
-          <li>General administration, archiving and customer service.</li>
-        </ul>
-      </span>
+<%= render 'shared/navbar2' %>
+<div class="container">
+  <h1>Experience</h1>
+  <div class="experience">
+    <div class="position">
+      <h2 class="title">SENIOR ACCOUNT MANAGER</h2>
+      <p class="company">Hogarth Worldwide Ltd, London – Jan 2014-Jun 2019</p>
+      <ul class="responsibilities">
+        <li>Client-facing technical account manager within a web development team, using Drupal to build websites for Nestlé Waters and Nespresso</li>
+        <li>Project management responsibilities, including carrying out changes and building new pages in the CMS, internal QC, and meeting with creative agencies to discuss design, UI & UX</li>
+        <li>Managed global campaigns within digital, TV & print production for Coca-Cola, Johnson & Johnson and Nespresso among others</li>
+        <li>Sole responsibility for the Nordic Coca-Cola markets including scope of work, revenue, billing and client expectations</li>
+        <li>Liaison between production departments to ensure information exchange remained unconvoluted</li>
+        <li>Trouble-shooting role across various accounts to streamline production processes and internal workflows, foremost in connection with digital campaigns.</li>
+      </ul>
     </div>
-  </body>
-</html>
+    <h2 class="title">FREELANCING IN LONDON</h2>
+    <p class="company">Various roles, Oct 2012-Dec 2013</p>
+
+    <ul class="responsibilities">
+      <li>Content Manager for a furniture start-up</li>
+      <li>Content Writer for a Swedish online platform</li>
+      <li>Sales Assistant securing accommodation for exchange students</li>
+      <li>Prop Maker at Theatre Royal Stratford East.</li>
+    </ul>
+
+    <h2 class="title">ONLINE EDITOR</h2>
+    <p class="company">Kristianstad University, Kristianstad, Sweden – Jan-Jun 2012</p>
+
+    <ul class="responsibilities">
+      <li>Extensive work with Episerver CMS recreating and transferring pages as part of a website update</li>
+      <li>Creating, editing and maintaining content in English & Swedish</li>
+      <li>Liaison between staff and management regarding updates and changes to the site.</li>
+    </ul>
+
+    <h2 class="title">ASSISTANT EDITOR</h2>
+    <p class="company">Folkuniversitetet Publishing House, Lund, Sweden – Mar 2009-Dec 2011</p>
+
+    <ul class="responsibilities">
+      <li>Editing, proof reading, translation and basic graphic design of language training material</li>
+      <li>Content management on Episerver in connection with a website launch</li>
+      <li>General administration, archiving and customer service.</li>
+    </ul>
+  </div>
+</div>

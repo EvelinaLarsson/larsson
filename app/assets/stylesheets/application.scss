@@ -1,11 +1,12 @@
 @import "components/navbar2";
 @import "bootstrap/scss/bootstrap";
-@import "pages";
+@import "pages/about";
 
 body {
   font-family: "Avenir Next";
   color: lightgrey;
   background-color: #819EB3;
+  font-size: 1rem;
 }
 
 h1 {
@@ -33,7 +34,7 @@ h1 {
   text-align: right;
 }
 
-p {
+.photo-cred {
   font-size: 16px;
   position: absolute;
   bottom: 35px;
