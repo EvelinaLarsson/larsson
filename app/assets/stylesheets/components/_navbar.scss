@@ -60,8 +60,13 @@ button.btn.dropdown-toggle::after {
 }
 
 #dropdown-item-id {
+  width: 80%;
   color: lightgrey;
   border-radius: 5px;
+  &:hover {
+    background-color: transparent;
+    color: white;
+  }
 }
 
 .dropdown-toggle{
@@ -80,3 +85,27 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
   cursor: default;
 }
 
+#contact-btn-id {
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+
+.contact-btn-class {
+  color: lightgrey;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+a#dropdown-item-id.dropdown-item.btn.dropdown-toggle::after {
+  content: none;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: transparent !important;
+}

@@ -9,9 +9,9 @@
         About
       </button>
       <div class="dropdown-menu" id="dropdown-menu-item">
-        <%= link_to "Background", about_path, class: "dropdown-item", id: "dropdown-item-id" %>
-        <a class="dropdown-item" id="dropdown-item-id" href="#">What now?</a>
-        <a class="dropdown-item" id="dropdown-item-id" href="#">Interests</a>
+        <%= link_to "Background", about_path(anchor: "background"), class: "dropdown-item", id: "dropdown-item-id" %>
+        <%= link_to "What now?", about_path(anchor: "what-now"), class: "dropdown-item", id: "dropdown-item-id" %>
+        <%= link_to "Interests", about_path(anchor: "interests"), class: "dropdown-item", id: "dropdown-item-id" %>
       </div>
     </div>
     <div class="btn-group">
@@ -19,9 +19,9 @@
         Experience
       </button>
       <div class="dropdown-menu" id="dropdown-menu-item" flip="static">
-        <a class="dropdown-item" id="dropdown-item-id" href="#">Le Wagon</a>
-        <a class="dropdown-item" id="dropdown-item-id" href="#">Hogarth</a>
-        <a class="dropdown-item" id="dropdown-item-id" href="#">Editing</a>
+        <%= link_to "Le Wagon", experience_path(anchor: "le-wagon"), class: "dropdown-item", id: "dropdown-item-id" %>
+        <%= link_to "Hogarth", experience_path(anchor: "hogarth"), class: "dropdown-item", id: "dropdown-item-id" %>
+        <%= link_to "Editing", experience_path(anchor: "editing"), class: "dropdown-item", id: "dropdown-item-id" %>
       </div>
     </div>
     <div class="btn-group">
@@ -29,15 +29,13 @@
         Projects
       </button>
       <div class="dropdown-menu" id="dropdown-menu-item">
-        <a class="dropdown-item" id="dropdown-item-id" href="#">126</a>
-        <a class="dropdown-item" id="dropdown-item-id" href="#">Limelight</a>
-        <a class="dropdown-item" id="dropdown-item-id" href="#">My Cocktails</a>
+        <%= link_to "126", projects_path(anchor: "onetwo"), class: "dropdown-item", id: "dropdown-item-id" %>
+        <%= link_to "Limelight", projects_path(anchor: "limelight"), class: "dropdown-item", id: "dropdown-item-id" %>
+        <%= link_to "My Cocktails", projects_path(anchor: "my-cocktails"), class: "dropdown-item", id: "dropdown-item-id" %>
       </div>
     </div>
     <div class="btn-group">
-      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Contact
-      </button>
+      <button id="contact-btn-id"><%= link_to "Contact", contact_path, class: "contact-btn-class" %></button>
     </div>
   </div>
 </div>
