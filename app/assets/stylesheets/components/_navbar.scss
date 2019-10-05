@@ -13,10 +13,10 @@
 
 .nav-left a {
   text-decoration: none;
-  color: lightgrey;
+  color: #ffd7c9;
   &:hover {
     text-decoration: none;
-    color: lightgrey;
+    color: white;
   }
 }
 
@@ -35,7 +35,7 @@
 }
 
 .btn:not(:disabled):not(.disabled) {
-  color: lightgrey;
+  color: #ffd7c9;
   box-shadow: none;
   font-size: 18px;
 }
@@ -61,7 +61,7 @@ button.btn.dropdown-toggle::after {
 
 #dropdown-item-id {
   width: 80%;
-  color: lightgrey;
+  color: #ffd7c9;
   border-radius: 5px;
   &:hover {
     background-color: transparent;
@@ -95,7 +95,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
 }
 
 .contact-btn-class {
-  color: lightgrey;
+  color: #ffd7c9;
   &:hover {
     color: white;
     text-decoration: none;

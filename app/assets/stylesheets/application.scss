@@ -8,8 +8,7 @@
 
 body {
   font-family: "Montserrat";
-  color: lightgrey;
-  background-color: #819EB3;
+  color: #ffd7c9;
   font-size: 1rem;
 }
 
@@ -33,17 +32,20 @@ h2 {
 
 .headline {
   font-family: 'Amatic SC', cursive;
-  font-size: 120px;
-  padding-top: 176px;
+  font-size: 152px;
+  padding-top: 156px;
   text-align: right;
+  margin-right: 28px;
+  margin-bottom: 0;
 }
 
 .subtitle {
   font-family: "Montserrat";
   font-weight: 100;
   font-size: 30px;
-  padding-right: 7px;
+  padding-right: 36px;
   text-align: right;
+  margin-top: -7px;
 }
 
 
