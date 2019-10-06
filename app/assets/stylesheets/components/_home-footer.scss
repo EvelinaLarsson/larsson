@@ -1,3 +1,7 @@
+.footer {
+  height: 70px;
+}
+
 .footer-links {
   font-size: 36px;
   position: absolute;
@@ -5,7 +9,7 @@
   left: 10px;
 }
 
-.fab {
+.fab, .far {
   color: #ffd7c9;
   margin-left: 15px;
   &:hover {

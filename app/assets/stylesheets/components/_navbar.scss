@@ -2,13 +2,14 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 4rem;
   height: 80px;
 }
 
 .nav-left {
   font-family: 'Amatic SC', cursive;
   font-size: 60px;
+  margin-left: -40px;
 }
 
 .nav-left a {
@@ -83,23 +84,6 @@ button.btn.dropdown-toggle::after {
 
 button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
   cursor: default;
-}
-
-#contact-btn-id {
-  background-color: transparent;
-  border: none;
-  font-size: 18px;
-  &:hover {
-    background-color: transparent !important;
-  }
-}
-
-.contact-btn-class {
-  color: #ffd7c9;
-  &:hover {
-    color: white;
-    text-decoration: none;
-  }
 }
 
 a#dropdown-item-id.dropdown-item.btn.dropdown-toggle::after {
