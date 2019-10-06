@@ -5,3 +5,11 @@
   margin-bottom: 10px;
 }
 
+.project-link {
+  text-decoration: underline;
+  color: #ffd7c9;
+  &:hover {
+    text-decoration: underline;
+    color: white;
+  }
+}
