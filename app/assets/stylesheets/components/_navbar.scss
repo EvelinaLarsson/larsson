@@ -35,6 +35,20 @@
   padding-left: 25px;
 }
 
+button#default-cursor.btn.dropdown-toggle {
+  height: 40px;
+  margin-top: 40px;
+  background-color: transparent;
+}
+
+button.btn.dropdown-toggle::after {
+  content:none;
+}
+
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+  cursor: default;
+}
+
 .btn:not(:disabled):not(.disabled) {
   color: #ffd7c9;
   box-shadow: none;
@@ -45,12 +59,12 @@
   cursor: default;
 }
 
-button.btn.dropdown-toggle::after {
-  content:none;
-}
-
 .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu {
   display: block;
+}
+
+.dropdown-toggle{
+  margin-bottom: 2px;
 }
 
 #dropdown-menu-item {
@@ -70,20 +84,12 @@ button.btn.dropdown-toggle::after {
   }
 }
 
-.dropdown-toggle{
-  margin-bottom: 2px;
-}
-
 .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
   margin-bottom: 0;
 }
 
 .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active, .btn-group-vertical > .btn:focus, .btn-group-vertical > .btn:active, .btn-group-vertical > .btn.active {
     z-index: 1;
-}
-
-button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
-  cursor: default;
 }
 
 a#dropdown-item-id.dropdown-item.btn.dropdown-toggle::after {
