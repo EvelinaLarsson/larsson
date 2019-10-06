@@ -1,0 +1,51 @@
+@import "components/navbar";
+@import "components/home-footer";
+@import "components/generic-footer";
+@import "bootstrap/scss/bootstrap";
+@import "pages/about";
+@import "pages/projects";
+@import "pages/experience";
+
+body {
+  font-family: "Montserrat";
+  color: #ffd7c9;
+  font-size: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.background {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.headline {
+  font-family: 'Amatic SC', cursive;
+  font-size: 152px;
+  padding-top: 156px;
+  text-align: right;
+  margin-right: 28px;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-family: "Montserrat";
+  font-weight: 100;
+  font-size: 30px;
+  padding-right: 36px;
+  text-align: right;
+  margin-top: -7px;
+}
+
+

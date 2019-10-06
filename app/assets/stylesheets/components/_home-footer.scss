@@ -1,0 +1,22 @@
+.footer {
+  height: 70px;
+}
+
+.footer-links {
+  font-size: 36px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.fab, .far {
+  color: #ffd7c9;
+  margin-left: 15px;
+  &:hover {
+    color: white;
+  }
+}
+
+a:hover {
+  text-decoration: none !important;
+}
