@@ -147,21 +147,22 @@ button.navbar-toggler {
   background-color: transparent;
   border: none;
   font-size: 14px;
-  text-align: center;
 }
 
 #dropdown-item-id {
   width: 80%;
   color: #ffd7c9;
   border-radius: 5px;
+  padding: 0.25rem 1rem;
   &:hover {
     background-color: transparent;
     color: white;
   }
 }
 
-.btn-group {
-  width: 131px;
+.btn-group, .btn-group-vertical {
+  width: fit-content;
+  margin-right: 10px;
 }
 
 .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active, .btn-group-vertical > .btn:focus, .btn-group-vertical > .btn:active, .btn-group-vertical > .btn.active {
