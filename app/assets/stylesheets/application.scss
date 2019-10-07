@@ -23,10 +23,16 @@ h1, h2, h3 {
 
 h1 {
   font-size: 80px;
+  @include mobile {
+    font-size: 70px;
+  }
 }
 
 h2 {
   font-size: 50px;
+  @include mobile {
+    font-size: 40px;
+  }
 }
 
 .background {

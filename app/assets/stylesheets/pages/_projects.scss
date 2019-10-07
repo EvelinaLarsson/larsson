@@ -3,6 +3,10 @@
   float: right;
   margin-left: 25px;
   margin-bottom: 10px;
+  @include mobile {
+    width: 100%;
+    margin-left: 0px;
+  }
 }
 
 .project-link {
