@@ -117,6 +117,7 @@ button.navbar-toggler {
 
 #mobile-item {
   color: #ffd7c9;
+  padding-top: 8px;
 }
 
 .dropdown-menu {
@@ -156,6 +157,10 @@ button.navbar-toggler {
     background-color: transparent;
     color: white;
   }
+}
+
+.btn-group {
+  width: 131px;
 }
 
 .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active, .btn-group-vertical > .btn:focus, .btn-group-vertical > .btn:active, .btn-group-vertical > .btn.active {
