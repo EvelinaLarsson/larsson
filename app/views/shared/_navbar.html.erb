@@ -1,38 +1,59 @@
 <!-- Navbar -->
-<div class="navigation">
-  <div class="nav-left">
-    <%= link_to "EL", root_path %>
-  </div>
-  <div class="nav-right">
-    <div class="btn-group">
-      <button type="button" id="default-cursor" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        About
-      </button>
+<nav class="navbar navbar-dark">
+  <div class="navbar collapse navbar-collapse navbar-toggler navigation">
+    <div class="nav-left">
+      <%= link_to "EL", root_path %>
+    </div>
+    <div class="nav-right">
+      <div class="btn-group">
+        <button type="button" id="default-cursor" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </button>
+        <div class="dropdown-menu" id="dropdown-menu-item">
+          <%= link_to "Background", about_path(anchor: "background"), class: "dropdown-item", id: "dropdown-item-id" %>
+          <%= link_to "What now?", about_path(anchor: "what-now"), class: "dropdown-item", id: "dropdown-item-id" %>
+          <%= link_to "Interests", about_path(anchor: "interests"), class: "dropdown-item", id: "dropdown-item-id" %>
+        </div>
+      </div>
+      <div class="btn-group">
+        <button type="button" id="default-cursor" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Experience
+        </button>
+        <div class="dropdown-menu" id="dropdown-menu-item" flip="static">
+          <%= link_to "Le Wagon", experience_path(anchor: "le-wagon"), class: "dropdown-item", id: "dropdown-item-id" %>
+          <%= link_to "Hogarth", experience_path(anchor: "hogarth"), class: "dropdown-item", id: "dropdown-item-id" %>
+          <%= link_to "Editing", experience_path(anchor: "editing"), class: "dropdown-item", id: "dropdown-item-id" %>
+        </div>
+      </div>
+      <div class="btn-group">
+        <button type="button" id="default-cursor" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Projects
+        </button>
+        <div class="dropdown-menu" id="dropdown-menu-item">
+          <%= link_to "126", projects_path(anchor: "onetwo"), class: "dropdown-item", id: "dropdown-item-id" %>
+          <%= link_to "Limelite", projects_path(anchor: "limelight"), class: "dropdown-item", id: "dropdown-item-id" %>
+          <%= link_to "My Cocktails", projects_path(anchor: "my-cocktails"), class: "dropdown-item", id: "dropdown-item-id" %>
+        </div>
+      </div>
+    </div>
+
+    <div class="collapse navbar-collapse" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <div class="dropdown-menu" id="dropdown-menu-item">
         <%= link_to "Background", about_path(anchor: "background"), class: "dropdown-item", id: "dropdown-item-id" %>
-        <%= link_to "What now?", about_path(anchor: "what-now"), class: "dropdown-item", id: "dropdown-item-id" %>
-        <%= link_to "Interests", about_path(anchor: "interests"), class: "dropdown-item", id: "dropdown-item-id" %>
       </div>
     </div>
-    <div class="btn-group">
-      <button type="button" id="default-cursor" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Experience
+
+    <div class="mobile-dropdown">
+      <button class="navbar-toggler dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
+          <i class="fas fa-bars"></i>
       </button>
-      <div class="dropdown-menu" id="dropdown-menu-item" flip="static">
-        <%= link_to "Le Wagon", experience_path(anchor: "le-wagon"), class: "dropdown-item", id: "dropdown-item-id" %>
-        <%= link_to "Hogarth", experience_path(anchor: "hogarth"), class: "dropdown-item", id: "dropdown-item-id" %>
-        <%= link_to "Editing", experience_path(anchor: "editing"), class: "dropdown-item", id: "dropdown-item-id" %>
+      <div class="dropdown-menu" id="mobile-menu" aria-labelledby="dropdownMenuButton">
+        <%= link_to "About", about_path, class: "dropdown-item", id: "mobile-item" %>
+        <%= link_to "Experience", experience_path, class: "dropdown-item", id: "mobile-item" %>
+        <%= link_to "Projects", projects_path, class: "dropdown-item", id: "mobile-item" %>
       </div>
     </div>
-    <div class="btn-group">
-      <button type="button" id="default-cursor" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Projects
-      </button>
-      <div class="dropdown-menu" id="dropdown-menu-item">
-        <%= link_to "126", projects_path(anchor: "onetwo"), class: "dropdown-item", id: "dropdown-item-id" %>
-        <%= link_to "Limelite", projects_path(anchor: "limelight"), class: "dropdown-item", id: "dropdown-item-id" %>
-        <%= link_to "My Cocktails", projects_path(anchor: "my-cocktails"), class: "dropdown-item", id: "dropdown-item-id" %>
-      </div>
-    </div>
+
+
   </div>
-</div>
+</nav>
