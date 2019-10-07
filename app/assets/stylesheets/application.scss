@@ -6,11 +6,12 @@
 @import "pages/projects";
 @import "pages/experience";
 @import "config/media-queries";
+@import "config/colours";
 
 
 body {
   font-family: "Montserrat";
-  color: #ffd7c9;
+  color: $gray;
   font-size: 1rem;
   @include mobile {
     font-size: 0.75rem;
@@ -64,6 +65,7 @@ h2 {
   margin-right: 36px;
   text-align: right;
   margin-top: -7px;
+  color: $gray;
   @include mobile {
     margin-top: -2px;
     font-size: 25px;

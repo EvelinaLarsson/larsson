@@ -1,4 +1,5 @@
 @import "config/media-queries";
+@import "config/colours";
 
 .navigation {
   position: relative;
@@ -21,10 +22,10 @@
 
 .nav-left a {
   text-decoration: none;
-  color: #ffd7c9;
+  color: $gray;
   &:hover {
     text-decoration: none;
-    color: white;
+    color: $hover;
   }
 }
 
@@ -116,7 +117,7 @@ button.navbar-toggler {
 }
 
 #mobile-item {
-  color: #ffd7c9;
+  color: $gray;
   padding-top: 8px;
 }
 
@@ -125,7 +126,7 @@ button.navbar-toggler {
 }
 
 .btn:not(:disabled):not(.disabled) {
-  color: #ffd7c9;
+  color: $gray;
   box-shadow: none;
   font-size: 18px;
 }
@@ -151,12 +152,12 @@ button.navbar-toggler {
 
 #dropdown-item-id {
   width: 80%;
-  color: #ffd7c9;
+  color: $gray;
   border-radius: 5px;
   padding: 0.25rem 1rem;
   &:hover {
     background-color: transparent;
-    color: white;
+    color: $hover;
   }
 }
 
@@ -184,8 +185,8 @@ i.fas.fa-bars {
 }
 
 .fa-bars {
-  color:#ffd7c9;
-  font-size:30px;
+  color: $gray;
+  font-size: 30px;
 }
 
 @media (min-width: 768px) {

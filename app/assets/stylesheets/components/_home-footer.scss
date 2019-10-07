@@ -10,10 +10,10 @@
 }
 
 .fab, .far {
-  color: #ffd7c9;
+  color: $gray;
   margin-left: 15px;
   &:hover {
-    color: white;
+    color: $hover;
   }
 }
 

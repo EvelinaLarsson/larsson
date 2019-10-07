@@ -3,6 +3,7 @@
   float: right;
   margin-left: 25px;
   margin-bottom: 10px;
+  border: 2px solid $gray;
   @include mobile {
     width: 100%;
     margin-left: 0px;
@@ -11,9 +12,9 @@
 
 .project-link {
   text-decoration: underline;
-  color: #ffd7c9;
+  color: $gray;
   &:hover {
     text-decoration: underline;
-    color: white;
+    color: $hover;
   }
 }
