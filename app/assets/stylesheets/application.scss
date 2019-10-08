@@ -51,7 +51,7 @@ h2 {
   margin-bottom: 0;
   @include mobile {
     font-size: 130px;
-    padding-top: 80px;
+    padding-top: 60px;
     text-align: left;
     margin-left: 8px;
     line-height: 1;
@@ -67,8 +67,8 @@ h2 {
   margin-top: -7px;
   color: $gray;
   @include mobile {
-    margin-top: -2px;
-    font-size: 25px;
+    margin-top: 2px;
+    font-size: 22px;
     text-align: left;
     margin-left: 14px;
     font-weight: 400;
