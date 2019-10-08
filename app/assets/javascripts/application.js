@@ -19,7 +19,7 @@
 //= require bootstrap-sprockets
 
 
-$(document).ready(function(){
+$(document).ready(function menuDropdown(){
   $(".dropdown, .btn-group").hover(function(){
     var dropdownMenu = $(this).children(".dropdown-menu");
     if(dropdownMenu.is(":visible")){
@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 
 
-$(document).ready(function() {
+$(document).ready(function colourSwap() {
   $(".pizza-grey").mouseenter(function() {
       $(".pizza-colour").show();
       $(".pizza-grey").hide();
