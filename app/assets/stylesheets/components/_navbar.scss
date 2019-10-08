@@ -120,7 +120,8 @@ button.navbar-toggler {
   color: $gray;
   font-size: 14px;
   float: right;
-  width: 35%;
+  width: 40%;
+  padding-right: 12px;
 }
 
 .dropdown-menu {
@@ -160,9 +161,6 @@ button.navbar-toggler {
   &:hover {
     background-color: transparent;
     color: $hover;
-  }
-  @include mobile {
-    padding: 0.2rem 0.5rem;
   }
 }
 
