@@ -9,24 +9,31 @@
   height: 80px;
 }
 
-.nav-left {
-  font-family: 'Poiret One', cursive;
-  font-size: 50px;
-  margin-top: -22px;
-  margin-left: 10px;
-  @include mobile {
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-}
+// .nav-left {
+//   font-family: 'Poiret One', cursive;
+//   font-size: 50px;
+//   margin-top: -22px;
+//   margin-left: 10px;
+//   @include mobile {
+//     margin-top: 0px;
+//     margin-left: 0px;
+//   }
+// }
 
-.nav-left a {
-  text-decoration: none;
-  color: $gray;
-  &:hover {
-    text-decoration: none;
-    color: $hover;
-  }
+// .nav-left a {
+//   text-decoration: none;
+//   color: $gray;
+//   &:hover {
+//     text-decoration: none;
+//     color: $hover;
+//   }
+// }
+
+img {
+  height: 4rem;
+}
+.pizza-colour {
+  display: none;
 }
 
 .nav-right {

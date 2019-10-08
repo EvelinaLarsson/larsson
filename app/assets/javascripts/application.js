@@ -27,3 +27,18 @@ $(document).ready(function(){
     }
   });
 });
+
+
+
+$(document).ready(function() {
+  $(".pizza-grey").mouseenter(function() {
+      $(".pizza-colour").show();
+      $(".pizza-grey").hide();
+      $(this).hide();
+  });
+  $(".pizza-colour").mouseout(function() {
+    $(".pizza-grey").show();
+    $(".pizza-colour").hide();
+    $(this).hide();
+  });
+});
