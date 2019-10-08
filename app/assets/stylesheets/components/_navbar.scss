@@ -112,13 +112,13 @@ button.navbar-toggler {
 #mobile-menu {
   background-color: transparent;
   text-align: right;
-  margin-top: -18px;
+  margin-top: -30px;
   border: none;
 }
 
 #mobile-item {
   color: $gray;
-  padding-top: 8px;
+  font-size: 14px;
 }
 
 .dropdown-menu {
@@ -158,6 +158,9 @@ button.navbar-toggler {
   &:hover {
     background-color: transparent;
     color: $hover;
+  }
+  @include mobile {
+    padding: 0rem 0.5rem;
   }
 }
 
