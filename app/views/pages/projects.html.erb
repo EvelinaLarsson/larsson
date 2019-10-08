@@ -8,9 +8,9 @@
       <p><em>N.B. Since none of the below sites are active, the server may take some time to fire up.</em></p>
     </div>
     <div class="project-one">
-      <h2 id="onetwosix">Onetwosix</h2>
+      <h2 id="onetwosix">One two six</h2>
       <div class="content">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControlsOne" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <%= image_tag "126-home.png", class: "d-block w-100" %>
@@ -25,17 +25,17 @@
               <%= image_tag "126-choice.png", class: "d-block w-100" %>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#carouselExampleControlsOne" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#carouselExampleControlsOne" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>
         <div class="description">
-          <p>Apparently, people spend 18 minutes a day scrolling Netflix in search of something to watch. This, combined with the tension of cooking, can be pretty annoying on a Friday night. Enter <%= link_to "126", "http://www.onetwosix.co.uk/", class: "project-link" %>. The user simply has to add their postcode, combine a movie genre and food type and can then browse through the combos provided by the app. The options are limited only by the number of restaurants signed up with Deliveroo in the area. Once a combo is chosen it will take the user to the movie on Netflix and to the restaurant on Deliveroo.</p>
+          <p>Apparently, people spend 18 minutes a day scrolling Netflix in search of something to watch. This, combined with the tension of cooking, can be pretty annoying on a Friday night. Enter <%= link_to "126", "http://www.onetwosix.co.uk/", class: "project-link", target: "_blank" %>. The user simply has to add their postcode, combine a movie genre and food type and can then browse through the combos provided by the app. The options are limited only by the number of restaurants signed up with Deliveroo in the area. Once a combo is chosen it will take the user to the movie on Netflix and to the restaurant on Deliveroo.</p>
           <p> We achieved this by scraping the Deliveroo platform for open restaurants corresponding with the chosen cuisine and within the postcode entered, and by parsing Netflix movie titles by genre using an API. We also included an automated Youtube search for movie trailers, and the option for restaurant owners on Deliveroo to join the platform and sponsor a combo to give their restaurant a boost. The app is hosted by Heroku.</p>
           <p>My team at Le Wagon and I built this app in less than 10 days, during the last two weeks of the bootcamp. We had already decided on the flow and on the overall user journey previously, using Figma and Whimsical, but during production I styled the site, made it responsive on all devices and integrated the carousel using JavaScript. On demo night my team and I presented the app in front of an audience at the Google Start-up Campus in London.</p>
         </div>
@@ -44,7 +44,7 @@
     <div class="project-two">
       <h2 id="limelight">Limelite</h2>
       <div class="content">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControlsTwo" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <%= image_tag "limelight-home.png", class: "d-block w-100" %>
@@ -56,17 +56,17 @@
               <%= image_tag "limelight-event.png", class: "d-block w-100" %>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#carouselExampleControlsTwo" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#carouselExampleControlsTwo" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>
         <div class="description">
-          <p>Since Airbnb use many of the features a web developer should know, i.e. search by dates, maps, payments, users of different specifications, sign up and log in/log out, grids, comments and ratings, we spent some time at Le Wagon building a copycat. My team and I built <%= link_to "Limelite", "https://cinema-airbnb-clone.herokuapp.com/", class: "project-link" %>, an MVC app that allows users to search for film events using location, buy tickets for the ones they like the look of, as well as host events themselves. We were working on tight timings with this app, having only four full days for production. The app is hosted by Heroku.</p>
+          <p>Since Airbnb use many of the features a web developer should know, i.e. search by dates, maps, payments, users of different specifications, sign up and log in/log out, grids, comments and ratings, we spent some time at Le Wagon building a copycat. My team and I built <%= link_to "Limelite", "https://cinema-airbnb-clone.herokuapp.com/", class: "project-link", target: "_blank" %>, an MVC app that allows users to search for film events using location, buy tickets for the ones they like the look of, as well as host events themselves. We were working on tight timings with this app, having only four full days for production. The app is hosted by Heroku.</p>
           <p>Although the business standard is mobile first, we knew we would present this app on desktop only, and due to time constraints, we did not make this site responsive. Note that since it isn’t a live app it contains limited seeds, added only for our team to be able to present. To ensure you get search results, enter Manchester on Halloween 2019.</p>
         </div>
       </div>
@@ -74,7 +74,7 @@
     <div class="project-three">
       <h2 id="my-cocktails">My Cocktails</h2>
       <div class="content">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControlsThree" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <%= image_tag "cocktail-home.png", class: "d-block w-100" %>
@@ -83,17 +83,17 @@
               <%= image_tag "cocktail-detail.png", class: "d-block w-100" %>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#carouselExampleControlsThree" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#carouselExampleControlsThree" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>
         <div class="description">
-          <p>Built across two days <%= link_to "My Cocktails", "https://jagharennyhemside.herokuapp.com/", class: "project-link" %> was my first MVC app. As it was built for practice only it lacks some basic usability, but the user can add cocktails with imagery hosted by Cloudinary, as well as adding and removing ingredients from the cocktails show page.</p>
+          <p>Built across two days <%= link_to "My Cocktails", "https://jagharennyhemside.herokuapp.com/", class: "project-link", target: "_blank" %> was my first MVC app. As it was built for practice only it lacks some basic usability, but the user can add cocktails with imagery hosted by Cloudinary, as well as adding and removing ingredients from the cocktails show page.</p>
           <br>
           <br>
           <br>
