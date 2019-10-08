@@ -1,28 +1,4 @@
-#carouselExampleControlsOne {
-  width: 60%;
-  float: right;
-  margin-left: 25px;
-  margin-bottom: 10px;
-  border: 2px solid $gray;
-  @include mobile {
-    width: 100%;
-    margin-left: 0px;
-  }
-}
-
-#carouselExampleControlsTwo {
-  width: 60%;
-  float: right;
-  margin-left: 25px;
-  margin-bottom: 10px;
-  border: 2px solid $gray;
-  @include mobile {
-    width: 100%;
-    margin-left: 0px;
-  }
-}
-
-#carouselExampleControlsThree {
+#carouselExampleControlsOne, #carouselExampleControlsTwo, #carouselExampleControlsThree {
   width: 60%;
   float: right;
   margin-left: 25px;
