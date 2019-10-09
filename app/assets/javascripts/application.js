@@ -29,28 +29,13 @@ $(document).ready(function menuDropdown(){
 });
 
 
+function onHover()
+{
+  $("#pizza-img").attr('src', 'https://res.cloudinary.com/db1sllnsq/image/upload/v1570545724/pizza-colour-small_gcnynw.png');
+}
 
-$(document).ready(function colourSwap() {
-  $(".pizza-grey").mouseenter(function toColour() {
-      $(".pizza-colour").show();
-      $(".pizza-grey").hide();
-      $(this).hide();
-  });
-  $(".pizza-colour").mouseout(function toGrey() {
-    $(".pizza-grey").show();
-    $(".pizza-colour").hide();
-    $(this).hide();
-  });
-});
-
-$(document).ready(function repeatColourSwap() {
-     $('.pizza-grey').click(function toColour(){
-      $(".pizza-colour").show();
-      $(".pizza-grey").hide();
-      $(this).hide();
-    });
- });
-
-
-
+function offHover()
+{
+  $("#pizza-img").attr('src', 'https://res.cloudinary.com/db1sllnsq/image/upload/v1570545724/pizza-grey-small_nmxi6s.png');
+}
 
