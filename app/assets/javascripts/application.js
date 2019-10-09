@@ -31,14 +31,26 @@ $(document).ready(function menuDropdown(){
 
 
 $(document).ready(function colourSwap() {
-  $(".pizza-grey").mouseenter(function() {
+  $(".pizza-grey").mouseenter(function toColour() {
       $(".pizza-colour").show();
       $(".pizza-grey").hide();
       $(this).hide();
   });
-  $(".pizza-colour").mouseout(function() {
+  $(".pizza-colour").mouseout(function toGrey() {
     $(".pizza-grey").show();
     $(".pizza-colour").hide();
     $(this).hide();
   });
 });
+
+$(document).ready(function repeatColourSwap() {
+     $('.pizza-grey').click(function toColour(){
+      $(".pizza-colour").show();
+      $(".pizza-grey").hide();
+      $(this).hide();
+    });
+ });
+
+
+
+

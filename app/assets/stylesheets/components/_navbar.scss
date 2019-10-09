@@ -34,6 +34,19 @@ img {
 }
 .pizza-colour {
   display: none;
+  position: relative;
+  top: -20px;
+  @include mobile {
+    top: 0px;
+  }
+}
+
+.pizza-grey {
+  position: relative;
+  top: -20px;
+  @include mobile {
+    top: 0px;
+  }
 }
 
 .nav-right {
