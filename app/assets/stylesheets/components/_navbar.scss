@@ -32,9 +32,6 @@
 
 .navbar-dark .navbar-toggler {
   border-color: transparent !important;
-}
-
-.navbar-dark .navbar-toggler {
   color: rgba(255,215,201,1) !important;
 }
 
@@ -47,7 +44,7 @@
   padding-left: 25px;
 }
 
-button#default-cursor.btn.dropdown-toggle {
+button.btn.dropdown-toggle {
   height: 40px;
   margin-top: 40px;
   background-color: transparent;
@@ -123,10 +120,6 @@ button.navbar-toggler {
   font-size: 18px;
 }
 
-#default-cursor {
-  cursor: default;
-}
-
 .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu {
   display: block;
 }
@@ -156,6 +149,7 @@ button.navbar-toggler {
 .btn-group, .btn-group-vertical {
   width: fit-content;
   margin-right: 10px;
+  align-items: center;
 }
 
 .btn-group > .btn:focus, .btn-group > .btn:active, .btn-group > .btn.active, .btn-group-vertical > .btn:focus, .btn-group-vertical > .btn:active, .btn-group-vertical > .btn.active {
@@ -164,6 +158,10 @@ button.navbar-toggler {
 
 a#dropdown-item-id.dropdown-item.btn.dropdown-toggle::after {
   content: none;
+}
+
+a.btn.dropdown-toggle::after {
+  display: none;
 }
 
 .dropdown-item.active, .dropdown-item:active {
