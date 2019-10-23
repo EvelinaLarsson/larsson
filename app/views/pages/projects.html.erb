@@ -3,12 +3,12 @@
   <div class="container">
     <h1>PROJECTS</h1>
     <div class="projects">
-      <p>While I have studied programming for many years, only a handful of my projects are hosted externally. My Github contains 32 repositories, and I also contributed to a number of repos during my time at Le Wagon.</p>
+      <p>My <%= link_to "Github", "https://github.com/EvelinaLarsson", class: "project-link", target: "_blank" %> account contains 32 repositories, and I have contributed to a number of repos during my time at Le Wagon. Including this website the following projects are live, hosted externally by Heroku.</p>
 
       <p><em>N.B. Since none of the sites below are active, the server may take some time to fire up.</em></p>
     </div>
     <div class="project-one">
-      <h2 id="onetwosix">One Two Six</h2>
+      <h2 id="onetwosix">One Two Six - weeks 8 & 9</h2>
       <div class="content">
         <div id="carouselExampleControlsOne" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -35,14 +35,14 @@
           </a>
         </div>
         <div class="description">
-          <p>Apparently, people spend 18 minutes a day scrolling Netflix in search of something to watch. This, combined with the demands of cooking, can be pretty annoying on a Friday night. Enter <%= link_to "126", "http://www.onetwosix.co.uk/", class: "project-link", target: "_blank" %>. The user simply has to add their postcode, combine a movie genre and food type and then browse through the combos provided by the app. The options are limited only by the number of restaurants signed up with Deliveroo in the area. Once a combo is chosen it will take the user to the movie on Netflix and to the restaurant on Deliveroo.</p>
-          <p> We achieved this by scraping the Deliveroo platform for open restaurants corresponding with the chosen cuisine and within the postcode entered, and by parsing Netflix movie titles by genre using an API. We also included an automated Youtube search for movie trailers, and the option for restaurant owners on Deliveroo to join the platform and sponsor a combo to give their restaurant a boost. The app is hosted by Heroku.</p>
-          <p>My team and I built this app in less than 10 days, during the last two weeks of the Le Wagon bootcamp. We had already decided on the flow and on the overall user journey previously, using Figma and Whimsical, but during production I styled the site, made it responsive on all devices and integrated the carousel using JavaScript. On demo night my team and I presented the app in front of an audience at the Google Start-up Campus in London.</p>
+          <p>Apparently, people spend 18 minutes a day scrolling Netflix in search of something to watch. This, combined with the demands of cooking, can be pretty annoying on a Friday night. Enter <%= link_to "126", "http://www.onetwosix.co.uk/", class: "project-link", target: "_blank" %>. The user simply has to add their postcode, combine a movie genre and food type and then browse through the combos provided by the app. Every restaurant that delivers in the area will be included as an option. Once a combo is chosen it will take the user to the movie on Netflix and to the restaurant on Deliveroo.</p>
+          <p> We achieved these features by scraping the Deliveroo platform for open restaurants corresponding with the chosen cuisine and within the postcode entered, and by parsing Netflix movie titles by genre using an API. An automated Youtube search for movie trailers was incorporated. As a perk for restaurant owners on Deliveroo, we built an option to join the platform as a sponsor and create a combo of their own restaurant and a film to increase their order numbers. The app is hosted by Heroku.</p>
+          <p>Our team of four built this app in less than 10 days, during the last two weeks of the Le Wagon bootcamp. We had already decided on the flow and on the overall user journey previously, using Figma and Whimsical, but during production I styled the site, made it responsive on all devices and integrated the carousel using JavaScript. On demo night my team and I presented the app in front of an audience at the Google Start-up Campus in London.</p>
         </div>
       </div>
     </div>
     <div class="project-two">
-      <h2 id="limelight">Limelite</h2>
+      <h2 id="limelight">Limelite - week 7</h2>
       <div class="content">
         <div id="carouselExampleControlsTwo" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -66,14 +66,15 @@
           </a>
         </div>
         <div class="description">
-          <p>Since Airbnb use many of the features a web developer should know, i.e. search by dates, maps, payments, users of different specifications, sign up and log in/log out, grids, comments and ratings, we spent some time at Le Wagon building a copycat. My team and I built <%= link_to "Limelite", "https://cinema-airbnb-clone.herokuapp.com/", class: "project-link", target: "_blank" %>, an MVC app that allows users to search for film events using location, buy tickets for the ones they like the look of, and to host their own events. We were working on tight timings with this app, having only four full days for production. The app is hosted by Heroku.</p>
+          <p>Our team of four built <%= link_to "Limelite", "https://cinema-airbnb-clone.herokuapp.com/", class: "project-link", target: "_blank" %> to include as many of the features a web developer should know as possible, i.e. search by dates, maps, payments, users of different specifications, grids, sign up and log in/log out.</p>
+          <p>Limelite is an MVC app that allows users to search for film events using location, buy tickets for the ones they like the look of, and to host their own events. We were working on tight timings with this app, having only four full days for production. The app is hosted by Heroku.</p>
           <p>Although the business standard is mobile first, we knew we would present this app on desktop only, and due to time constraints, we did not make this site responsive.</p>
           <p><em>N.B. Since this isn’t a live app it contains limited seeds, added only for our team to be able to present. To ensure you get search results, enter Manchester on Halloween 2019.</em></p>
         </div>
       </div>
     </div>
     <div class="project-three">
-      <h2 id="my-cocktails">My Cocktails</h2>
+      <h2 id="my-cocktails">My Cocktails - week 6</h2>
       <div class="content">
         <div id="carouselExampleControlsThree" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -94,7 +95,9 @@
           </a>
         </div>
         <div class="description">
-          <p>Built across two days <%= link_to "My Cocktails", "https://jagharennyhemside.herokuapp.com/", class: "project-link", target: "_blank" %> was my first MVC app. As it was built for practice only it lacks some basic usability, but the user can add cocktails with images hosted by Cloudinary, as well as adding and removing ingredients from the cocktails show page.</p>
+          <p>Built across two days, <%= link_to "My Cocktails", "https://jagharennyhemside.herokuapp.com/", class: "project-link", target: "_blank" %> was my first MVC app.</p>
+
+          <p>The app was created for practice only and was built with basic usability; the user can add cocktails with images hosted by Cloudinary, as well as add and remove ingredients from the cocktails show page.</p>
           <br>
           <br>
           <br>
