@@ -64,6 +64,7 @@ h2 {
   text-align: right;
   margin-right: 4px;
   color: $gray;
+  margin-bottom: 0;
   @include mobile {
     margin-top: 4px;
     font-size: 22px;
